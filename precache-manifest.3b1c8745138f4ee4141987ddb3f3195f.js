@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f13fa139d0d7100b0ed2c59643b517a7",
+    "revision": "00c8b873023347152040665a6ad8fb3b",
     "url": "/react-redux-graphql-pokemon/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-redux-graphql-pokemon/static/css/2.8e488da6.chunk.css"
   },
   {
-    "revision": "10d3865e44cb9c8a3605",
+    "revision": "dc20f343a34bba87b856",
     "url": "/react-redux-graphql-pokemon/static/css/main.204ed9ab.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-redux-graphql-pokemon/static/js/2.cd23cf01.chunk.js"
   },
   {
-    "revision": "10d3865e44cb9c8a3605",
-    "url": "/react-redux-graphql-pokemon/static/js/main.9c85f4ec.chunk.js"
+    "revision": "dc20f343a34bba87b856",
+    "url": "/react-redux-graphql-pokemon/static/js/main.52031f1f.chunk.js"
   },
   {
     "revision": "37aa19654e45db3bca0b",

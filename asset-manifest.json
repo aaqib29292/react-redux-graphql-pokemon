@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-redux-graphql-pokemon/static/css/main.204ed9ab.chunk.css",
-    "main.js": "/react-redux-graphql-pokemon/static/js/main.9c85f4ec.chunk.js",
-    "main.js.map": "/react-redux-graphql-pokemon/static/js/main.9c85f4ec.chunk.js.map",
+    "main.js": "/react-redux-graphql-pokemon/static/js/main.52031f1f.chunk.js",
+    "main.js.map": "/react-redux-graphql-pokemon/static/js/main.52031f1f.chunk.js.map",
     "runtime-main.js": "/react-redux-graphql-pokemon/static/js/runtime-main.e3ba87a2.js",
     "runtime-main.js.map": "/react-redux-graphql-pokemon/static/js/runtime-main.e3ba87a2.js.map",
     "static/css/2.8e488da6.chunk.css": "/react-redux-graphql-pokemon/static/css/2.8e488da6.chunk.css",
     "static/js/2.cd23cf01.chunk.js": "/react-redux-graphql-pokemon/static/js/2.cd23cf01.chunk.js",
     "static/js/2.cd23cf01.chunk.js.map": "/react-redux-graphql-pokemon/static/js/2.cd23cf01.chunk.js.map",
     "index.html": "/react-redux-graphql-pokemon/index.html",
-    "precache-manifest.309c5cd3bc6ddd16c8b539dd2c586a94.js": "/react-redux-graphql-pokemon/precache-manifest.309c5cd3bc6ddd16c8b539dd2c586a94.js",
+    "precache-manifest.3b1c8745138f4ee4141987ddb3f3195f.js": "/react-redux-graphql-pokemon/precache-manifest.3b1c8745138f4ee4141987ddb3f3195f.js",
     "service-worker.js": "/react-redux-graphql-pokemon/service-worker.js",
     "static/css/2.8e488da6.chunk.css.map": "/react-redux-graphql-pokemon/static/css/2.8e488da6.chunk.css.map",
     "static/css/main.204ed9ab.chunk.css.map": "/react-redux-graphql-pokemon/static/css/main.204ed9ab.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.8e488da6.chunk.css",
     "static/js/2.cd23cf01.chunk.js",
     "static/css/main.204ed9ab.chunk.css",
-    "static/js/main.9c85f4ec.chunk.js"
+    "static/js/main.52031f1f.chunk.js"
   ]
 }
