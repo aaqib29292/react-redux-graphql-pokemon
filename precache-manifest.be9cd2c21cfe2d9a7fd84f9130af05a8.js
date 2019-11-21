@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "061aefc5801499fcfd86470561891e87",
+    "revision": "39135e09c2763770a3711aabf2cb87d1",
     "url": "/react-redux-graphql-pokemon/index.html"
   },
   {
