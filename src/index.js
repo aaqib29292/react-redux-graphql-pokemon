@@ -1,12 +1,59 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'semantic-ui-css/semantic.min.css'
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import List from './routes/List/List';
+import Details from './routes/Details/Details';
+import Error from './routes/Error/Error';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { Provider } from 'react-redux'
+import { createStore, applyMiddleware } from 'redux'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import thunkMiddleware from 'redux-thunk'
+
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+
+import rootReducer from './reducers'
+
+const store = createStore(rootReducer, applyMiddleware(thunkMiddleware))
+
+
+const RenderApp = () => {
+    return (
+        <div>
+
+           <Router>
+              <div style={{textAlign: "center"}}>
+                 <Link to="/">
+                   <img style={{height: 120}} src={"../Pokemon-logo.png"} alt="logo" />
+                 </Link>
+
+              </div>
+               <Switch>
+                   <Route exact path="/">
+                       <List/>
+                   </Route>
+                   <Route path="/pokemon/:id">
+                       <Details/>
+                   </Route>
+                   <Route path="/error">
+                       <Error/>
+                   </Route>
+               </Switch>
+           </Router>
+       </div>
+    )
+}
+
+const ReduxApp = () => {
+    return (
+        <Provider store={store}>
+            <RenderApp />
+        </Provider>
+    )
+}
+
+
+
+ReactDOM.render(<ReduxApp/>, document.getElementById('root'));
+
