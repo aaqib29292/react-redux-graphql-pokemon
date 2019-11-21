@@ -1,8 +1,8 @@
-import { REQUEST_DATA, RECEIVE_DATA, INCREASE_LIMIT, REQUEST_DETAILS, RECEIVE_DETAILS, FETCHING_MORE, RECEIVED_ERROR} from './../constants/reduxConstants';
+import request from './../services/request'
 
-import request from './../services/apolloRequest'
+import { REQUEST_DATA, RECEIVE_DATA, INCREASE_LIMIT, REQUEST_DETAILS, RECEIVE_DETAILS, FETCHING_MORE, RECEIVED_ERROR} from './../constants';
 
-import { getDataQuery, getPokemonDetails } from '../graphql_queries';
+import { getDataQuery, getPokemonDetails } from './../queries';
 
 
 // data dispatcher

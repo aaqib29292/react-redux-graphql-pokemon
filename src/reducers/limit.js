@@ -1,4 +1,4 @@
-import { INCREASE_LIMIT } from '../constants/reduxConstants'
+import { INCREASE_LIMIT } from '../constants/index'
 
 
 export default function limit (state = 20, action) {

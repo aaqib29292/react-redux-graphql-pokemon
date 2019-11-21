@@ -2,7 +2,7 @@ import {
     REQUEST_DATA,
     RECEIVE_DATA,
     FETCHING_MORE, RECEIVED_ERROR,
-} from '../constants/reduxConstants'
+} from '../constants/index'
 
 export default function data(
     state = {

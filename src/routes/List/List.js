@@ -4,7 +4,7 @@ import s from './List.module.scss';
 import { Container, Dimmer, Loader, Card, Label, Button } from 'semantic-ui-react'
 import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
-import {fetchData, loadMore, fetchMoreData} from './../../actions'
+import {fetchData, loadMore, fetchMoreData} from '../../actions/index'
 
 
 const PokemonCard = (props) => {

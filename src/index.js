@@ -9,7 +9,7 @@ import Error from './routes/Error/Error';
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware } from 'redux'
 
-import thunkMiddleware from 'redux-thunk'
+import thunkMiddleware from 'redux-thunk';
 
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
@@ -21,11 +21,10 @@ const store = createStore(rootReducer, applyMiddleware(thunkMiddleware))
 const RenderApp = () => {
     return (
         <div>
-
-           <Router>
+           <Router basename="/react-redux-graphql-pokemon/">
               <div style={{textAlign: "center"}}>
                  <Link to="/">
-                   <img style={{height: 120}} src={"../Pokemon-logo.png"} alt="logo" />
+                   <img style={{height: 120}} src={"./pokemon-logo.png"} alt="logo" />
                  </Link>
 
               </div>

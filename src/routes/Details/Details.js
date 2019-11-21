@@ -4,7 +4,7 @@ import s from './Details.module.scss';
 import { Container, Dimmer, Loader, Card, Button, Label, Item, Icon } from 'semantic-ui-react';
 import { useHistory, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchDetails } from './../../actions'
+import { fetchDetails } from '../../actions/index'
 
 const color = ['red','orange', 'yellow', 'olive', 'green', 'teal', 'blue', 'violet', 'purple', 'pink', 'brown', 'grey',]
 

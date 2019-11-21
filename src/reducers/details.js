@@ -2,7 +2,7 @@ import {
     REQUEST_DETAILS,
     RECEIVE_DETAILS,
     RECEIVED_ERROR
-} from '../constants/reduxConstants'
+} from '../constants/index'
 
 export default function details(
     state = {
