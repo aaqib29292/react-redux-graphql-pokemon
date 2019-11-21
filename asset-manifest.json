@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-redux-graphql-pokemon/static/css/main.204ed9ab.chunk.css",
+    "main.js": "/react-redux-graphql-pokemon/static/js/main.98e193a5.chunk.js",
+    "main.js.map": "/react-redux-graphql-pokemon/static/js/main.98e193a5.chunk.js.map",
+    "runtime-main.js": "/react-redux-graphql-pokemon/static/js/runtime-main.e3ba87a2.js",
+    "runtime-main.js.map": "/react-redux-graphql-pokemon/static/js/runtime-main.e3ba87a2.js.map",
+    "static/css/2.8e488da6.chunk.css": "/react-redux-graphql-pokemon/static/css/2.8e488da6.chunk.css",
+    "static/js/2.cd23cf01.chunk.js": "/react-redux-graphql-pokemon/static/js/2.cd23cf01.chunk.js",
+    "static/js/2.cd23cf01.chunk.js.map": "/react-redux-graphql-pokemon/static/js/2.cd23cf01.chunk.js.map",
+    "index.html": "/react-redux-graphql-pokemon/index.html",
+    "precache-manifest.28d237c7e45f6cedd8169cc34d0c411c.js": "/react-redux-graphql-pokemon/precache-manifest.28d237c7e45f6cedd8169cc34d0c411c.js",
+    "service-worker.js": "/react-redux-graphql-pokemon/service-worker.js",
+    "static/css/2.8e488da6.chunk.css.map": "/react-redux-graphql-pokemon/static/css/2.8e488da6.chunk.css.map",
+    "static/css/main.204ed9ab.chunk.css.map": "/react-redux-graphql-pokemon/static/css/main.204ed9ab.chunk.css.map",
+    "static/media/semantic.min.css": "/react-redux-graphql-pokemon/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3ba87a2.js",
+    "static/css/2.8e488da6.chunk.css",
+    "static/js/2.cd23cf01.chunk.js",
+    "static/css/main.204ed9ab.chunk.css",
+    "static/js/main.98e193a5.chunk.js"
+  ]
+}
