@@ -53,7 +53,6 @@ const List = () => {
         dispatch(fetchData())
     }, [])
 
-
     const loadMorePokemons = () => {
         dispatch(loadMore())
         dispatch(fetchMoreData())
@@ -62,6 +61,7 @@ const List = () => {
     const handleClick = () => loadMorePokemons();
 
     const handleKeyPress = (e) => {
+        
         if (e.charCode === 32 || e.charCode === 13) {
             e.preventDefault();
             loadMorePokemons();
@@ -87,16 +87,15 @@ const List = () => {
                         })
                     }
                 </Card.Group>
-                <div style={{margin: "10px 0  "}}>
+                <div style={{margin: "10px 0"}}>
                     <Button
                         fluid
+                        size={"big"}
                         loading={isFetchingMore}
-                        content='Click'
+                        content='Click to load more pokemons'
                         onClick={handleClick}
                         onKeyPress={handleKeyPress}
-                    >
-                        Click or press space to load more pokemons
-                    </Button>
+                    />
                 </div>
 
             </Container>

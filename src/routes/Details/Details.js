@@ -81,6 +81,7 @@ const Details = () => {
                     {
                         pokemon.evolutions &&
                         <Card.Content>
+                            <Card.Header>Evolutions</Card.Header>
                             <Item.Group divided>
                                 {
                                     pokemon.evolutions && pokemon.evolutions.map((x, i) => {
