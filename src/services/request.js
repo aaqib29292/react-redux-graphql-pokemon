@@ -1,6 +1,7 @@
 import { execute, makePromise , HttpLink } from 'apollo-boost';
-
-const uri = 'https://graphql-pokemon.now.sh/graphql';
+ 
+const cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+const uri = cors_api_url + 'https://graphql-pokemon.now.sh/graphql';
 const link = new HttpLink({ uri });
 
 const request = (query, variables) => {
